@@ -36,10 +36,11 @@ ENV/
 .env
 .env.local
 
-# Reports
-*.md
-*.json
-!README.md
+# Reports (generated output only)
+*-report.md
+*-report.json
+report.md
+report.json
 
 # OS
 .DS_Store
